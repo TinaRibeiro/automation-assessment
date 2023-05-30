@@ -1,0 +1,19 @@
+{
+  "name": "my-new-project",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.10.4",
+    "@wdio/cli": "^8.10.5",
+    "@wdio/config": "^8.10.4",
+    "@wdio/cucumber-framework": "^8.10.4",
+    "@wdio/local-runner": "^8.10.5",
+    "allure-commandline": "^2.22.1",
+    "chromedriver": "^113.0.0",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-wait-for": "^3.0.4"
+  },
+  "scripts": {
+    "open-allure": "allure generate report/allure-results --clean && allure open",
+    "test": "wdio run ./wdio.conf.js && npm run open-allure"
+  }
+}
