@@ -1,7 +1,7 @@
 Feature: Create user account with GitHub
 As a user
 I want to be able 
-to create a new account with email
+to create a new account with GitHub
 
 Scenario: Create user account - with GitHub
  Given the user is on the login page
