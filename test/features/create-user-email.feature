@@ -10,6 +10,6 @@ Scenario: Create user account - with Email
  Then the Sauce Labs home page will be displayed
  When user clicks Try Free
  And to choose to create a new account with "email"
- When to inform the work email: "testeautomation@mailinator.com", username: "user_automation_test" and password "Test2469@"
+ When to inform the work email: "autousertest@outlook.com", username: "user_automation_test" and password "Test2469@"
  And to click Sign Up
  Then the account will be created
